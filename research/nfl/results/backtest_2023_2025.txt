@@ -1,0 +1,12 @@
+720 games, 11928 player slots; inputs built in 42s
+scored in 63s
+ANYTD n=10519: log loss v1 0.4949 v2 0.4920 base(season TD rate) 0.5881 | mean p v1 0.234 v2 0.218 actual 0.231
+ATT    n=1409: coverage 50/80/90 v1 (0.334, 0.566, 0.691) v2 (0.486, 0.798, 0.901) | CRPS v1 5.974 v2 4.765 | logloss@line v1 0.8248 v2 0.6014 | bias v1 +5.52 v2 +0.54
+CMP    n=1409: coverage 50/80/90 v1 (0.39, 0.64, 0.74) v2 (0.509, 0.807, 0.911) | CRPS v1 4.039 v2 3.382
+PTD    n=1409: coverage 50/80/90 v1 (0.468, 0.784, 0.881) v2 (0.473, 0.781, 0.884) | CRPS v1 0.606 v2 0.605
+PYDS   n=1409: coverage 50/80/90 v1 (0.458, 0.734, 0.823) v2 (0.477, 0.789, 0.885) | CRPS v1 47.606 v2 42.028 | logloss@line v1 0.6854 v2 0.6186 | bias v1 +35.02 v2 +1.14
+RATT   n=3332: coverage 50/80/90 v1 (0.366, 0.627, 0.746) v2 (0.508, 0.797, 0.907) | CRPS v1 2.586 v2 2.534 | logloss@line v1 0.6504 v2 0.6366 | bias v1 -0.45 v2 -0.31
+REC    n=9245: coverage 50/80/90 v1 (0.446, 0.741, 0.858) v2 (0.477, 0.781, 0.887) | CRPS v1 1.076 v2 1.043 | logloss@line v1 0.6702 v2 0.6524 | bias v1 +0.36 v2 +0.04
+RECYDS n=9245: coverage 50/80/90 v1 (0.47, 0.759, 0.868) v2 (0.485, 0.788, 0.895) | CRPS v1 14.187 v2 13.865 | logloss@line v1 0.6696 v2 0.6590 | bias v1 +4.14 v2 +0.52
+RRY    n=10519: coverage 50/80/90 v1 (0.461, 0.758, 0.866) v2 (0.483, 0.786, 0.89) | CRPS v1 16.341 v2 16.064 | logloss@line v1 0.6671 v2 0.6583 | bias v1 +2.77 v2 +0.01
+RYDS   n=4741: coverage 50/80/90 v1 (0.395, 0.726, 0.868) v2 (0.504, 0.804, 0.904) | CRPS v1 13.615 v2 12.873 | logloss@line v1 0.7062 v2 0.6490 | bias v1 -0.97 v2 +0.27

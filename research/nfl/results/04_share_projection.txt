@@ -1,0 +1,18 @@
+
+target share: 23945 player-games (3+ prior games this season)
+  EWMA half-life 1: RMSE 2.551
+  EWMA half-life 2: RMSE 2.446
+  EWMA half-life 3: RMSE 2.426
+  EWMA half-life 4: RMSE 2.422
+  EWMA half-life 6: RMSE 2.423
+  EWMA half-life None: RMSE 2.442
+  best: half-life 4, prior weight 50 team-targets: RMSE 2.390
+
+RB carry share: 7124 player-games (3+ prior games this season)
+  EWMA half-life 1: RMSE 4.375
+  EWMA half-life 2: RMSE 4.357
+  EWMA half-life 3: RMSE 4.401
+  EWMA half-life 4: RMSE 4.440
+  EWMA half-life 6: RMSE 4.491
+  EWMA half-life None: RMSE 4.635
+  best: half-life 2, prior weight 25 team-carries: RMSE 4.356

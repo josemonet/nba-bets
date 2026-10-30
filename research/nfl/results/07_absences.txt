@@ -1,0 +1,32 @@
+
+Top pass-catcher (18%+ target share) out: 133 absences, 2454 teammate pairs
+            n  share_in  share_out   gain
+rank_a                                   
+1.0     132.0     0.217      0.244  0.027
+1.5       2.0     0.189      0.217  0.028
+2.0     131.0     0.175      0.202  0.027
+2.5       2.0     0.118      0.103 -0.016
+3.0     129.0     0.153      0.174  0.021
+ gain by teammate position vs missing player position:
+pos       RB     TE     WR
+x_pos                     
+RB     0.025  0.018  0.013
+TE     0.006  0.035  0.020
+WR     0.006  0.008  0.038
+ total share regained by listed teammates (sum of gains / missing share): 1.28
+
+Lead back (45%+ of carries) out: 99 absences, 1101 teammate pairs
+           n  share_in  share_out   gain
+rank_a                                  
+1.0     99.0     0.314      0.581  0.267
+2.0     97.0     0.189      0.342  0.153
+3.0     87.0     0.091      0.189  0.098
+3.5      4.0     0.007      0.005 -0.002
+4.0     83.0     0.047      0.131  0.084
+
+Starting QB in vs out (team per game):
+       pass_att  pass_yds   pts  implied
+qb_in                                   
+False      33.1     220.6  19.8     20.5
+True       34.2     245.9  23.2     22.9
+points vs implied when the starter is out: -0.71 (in: 0.32) -> the closing line prices the backup

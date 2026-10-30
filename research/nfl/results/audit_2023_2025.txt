@@ -1,0 +1,210 @@
+53237 rows from 720 games, seasons [np.int64(2023), np.int64(2024), np.int64(2025)]
+
+== by stat
+ATT                          n= 1409 coverage 50/80/90 (0.486, 0.798, 0.901) rel bias +0.017
+CMP                          n= 1409 coverage 50/80/90 (0.509, 0.807, 0.911) rel bias +0.012
+PTD                          n= 1409 coverage 50/80/90 (0.473, 0.781, 0.884) rel bias -0.054
+PYDS                         n= 1409 coverage 50/80/90 (0.477, 0.789, 0.885) rel bias +0.005
+RATT                         n= 3332 coverage 50/80/90 (0.508, 0.797, 0.907) rel bias -0.033
+REC                          n= 9245 coverage 50/80/90 (0.477, 0.781, 0.887) rel bias +0.013
+RECYDS                       n= 9245 coverage 50/80/90 (0.485, 0.788, 0.895) rel bias +0.016
+RRY                          n=10519 coverage 50/80/90 (0.483, 0.786, 0.89) rel bias +0.000
+RYDS                         n= 4741 coverage 50/80/90 (0.504, 0.804, 0.904) rel bias +0.009
+
+== by pos
+ATT QB                       n= 1409 coverage 50/80/90 (0.486, 0.798, 0.901) rel bias +0.017
+CMP QB                       n= 1409 coverage 50/80/90 (0.509, 0.807, 0.911) rel bias +0.012
+PTD QB                       n= 1409 coverage 50/80/90 (0.473, 0.781, 0.884) rel bias -0.054
+PYDS QB                      n= 1409 coverage 50/80/90 (0.477, 0.789, 0.885) rel bias +0.005
+RATT RB                      n= 3260 coverage 50/80/90 (0.507, 0.797, 0.907) rel bias -0.033
+REC RB                       n= 2046 coverage 50/80/90 (0.479, 0.784, 0.896) rel bias +0.029
+REC TE                       n= 2064 coverage 50/80/90 (0.469, 0.772, 0.882) rel bias -0.031
+REC WR                       n= 5100 coverage 50/80/90 (0.479, 0.783, 0.885) rel bias +0.025
+RECYDS RB                    n= 2046 coverage 50/80/90 (0.481, 0.792, 0.9) rel bias +0.027
+RECYDS TE                    n= 2064 coverage 50/80/90 (0.478, 0.775, 0.897) rel bias -0.033
+RECYDS WR                    n= 5100 coverage 50/80/90 (0.49, 0.791, 0.891) rel bias +0.029
+RRY RB                       n= 3308 coverage 50/80/90 (0.478, 0.783, 0.889) rel bias -0.008
+RRY TE                       n= 2074 coverage 50/80/90 (0.482, 0.77, 0.881) rel bias -0.035
+RRY WR                       n= 5101 coverage 50/80/90 (0.486, 0.794, 0.894) rel bias +0.018
+RYDS QB                      n= 1409 coverage 50/80/90 (0.525, 0.807, 0.906) rel bias +0.059
+RYDS RB                      n= 3260 coverage 50/80/90 (0.495, 0.802, 0.903) rel bias -0.002
+
+== by share_cv
+ATT 0.0                      n= 1409 coverage 50/80/90 (0.486, 0.798, 0.901) rel bias +0.017
+CMP 0.0                      n= 1409 coverage 50/80/90 (0.509, 0.807, 0.911) rel bias +0.012
+PTD 0.0                      n= 1409 coverage 50/80/90 (0.473, 0.781, 0.884) rel bias -0.054
+PYDS 0.0                     n= 1409 coverage 50/80/90 (0.477, 0.789, 0.885) rel bias +0.005
+RATT 0.1                     n= 1588 coverage 50/80/90 (0.52, 0.807, 0.911) rel bias -0.036
+RATT 0.14                    n= 1162 coverage 50/80/90 (0.503, 0.797, 0.905) rel bias -0.030
+RATT 0.2                     n=  318 coverage 50/80/90 (0.506, 0.792, 0.912) rel bias -0.000
+RATT 0.3                     n=  264 coverage 50/80/90 (0.455, 0.746, 0.883) rel bias -0.069
+REC 0.1                      n= 4922 coverage 50/80/90 (0.482, 0.781, 0.887) rel bias +0.023
+REC 0.14                     n= 3055 coverage 50/80/90 (0.477, 0.784, 0.884) rel bias +0.003
+REC 0.2                      n=  783 coverage 50/80/90 (0.473, 0.77, 0.877) rel bias -0.016
+REC 0.3                      n=  485 coverage 50/80/90 (0.427, 0.775, 0.911) rel bias +0.030
+RECYDS 0.1                   n= 4922 coverage 50/80/90 (0.477, 0.782, 0.891) rel bias +0.012
+RECYDS 0.14                  n= 3055 coverage 50/80/90 (0.49, 0.794, 0.898) rel bias +0.014
+RECYDS 0.2                   n=  783 coverage 50/80/90 (0.53, 0.81, 0.911) rel bias +0.038
+RECYDS 0.3                   n=  485 coverage 50/80/90 (0.468, 0.771, 0.885) rel bias +0.038
+RRY 0.1                      n= 5395 coverage 50/80/90 (0.48, 0.785, 0.89) rel bias -0.002
+RRY 0.14                     n= 3539 coverage 50/80/90 (0.486, 0.79, 0.889) rel bias -0.003
+RRY 0.2                      n=  928 coverage 50/80/90 (0.511, 0.802, 0.899) rel bias +0.030
+RRY 0.3                      n=  657 coverage 50/80/90 (0.444, 0.75, 0.88) rel bias -0.007
+RYDS 0.0                     n= 1409 coverage 50/80/90 (0.525, 0.807, 0.906) rel bias +0.059
+RYDS 0.1                     n= 1588 coverage 50/80/90 (0.506, 0.81, 0.912) rel bias -0.007
+RYDS 0.14                    n= 1162 coverage 50/80/90 (0.506, 0.808, 0.897) rel bias +0.005
+RYDS 0.2                     n=  318 coverage 50/80/90 (0.434, 0.77, 0.893) rel bias +0.048
+RYDS 0.3                     n=  264 coverage 50/80/90 (0.451, 0.769, 0.883) rel bias -0.048
+
+== by games_in
+ATT 0-2                      n=  173 coverage 50/80/90 (0.405, 0.786, 0.89) rel bias -0.001
+ATT 3-5                      n=  403 coverage 50/80/90 (0.494, 0.797, 0.903) rel bias +0.026
+ATT 6-9                      n=  412 coverage 50/80/90 (0.466, 0.782, 0.893) rel bias +0.006
+ATT 10+                      n=  421 coverage 50/80/90 (0.532, 0.822, 0.912) rel bias +0.029
+CMP 0-2                      n=  173 coverage 50/80/90 (0.457, 0.815, 0.925) rel bias +0.003
+CMP 3-5                      n=  403 coverage 50/80/90 (0.521, 0.821, 0.918) rel bias +0.018
+CMP 6-9                      n=  412 coverage 50/80/90 (0.515, 0.786, 0.903) rel bias -0.002
+CMP 10+                      n=  421 coverage 50/80/90 (0.513, 0.81, 0.905) rel bias +0.025
+PTD 0-2                      n=  173 coverage 50/80/90 (0.514, 0.786, 0.884) rel bias -0.018
+PTD 3-5                      n=  403 coverage 50/80/90 (0.481, 0.779, 0.901) rel bias -0.037
+PTD 6-9                      n=  412 coverage 50/80/90 (0.476, 0.779, 0.871) rel bias -0.059
+PTD 10+                      n=  421 coverage 50/80/90 (0.444, 0.781, 0.879) rel bias -0.076
+PYDS 0-2                     n=  173 coverage 50/80/90 (0.457, 0.786, 0.879) rel bias +0.007
+PYDS 3-5                     n=  403 coverage 50/80/90 (0.504, 0.792, 0.871) rel bias +0.013
+PYDS 6-9                     n=  412 coverage 50/80/90 (0.488, 0.786, 0.891) rel bias -0.017
+PYDS 10+                     n=  421 coverage 50/80/90 (0.449, 0.789, 0.895) rel bias +0.018
+RATT 0-2                     n=  426 coverage 50/80/90 (0.493, 0.763, 0.901) rel bias -0.011
+RATT 3-5                     n=  848 coverage 50/80/90 (0.507, 0.798, 0.904) rel bias -0.027
+RATT 6-9                     n=  981 coverage 50/80/90 (0.503, 0.804, 0.911) rel bias -0.027
+RATT 10+                     n= 1077 coverage 50/80/90 (0.518, 0.803, 0.906) rel bias -0.048
+REC 0-2                      n=  920 coverage 50/80/90 (0.474, 0.775, 0.885) rel bias -0.004
+REC 3-5                      n= 2176 coverage 50/80/90 (0.477, 0.785, 0.881) rel bias +0.015
+REC 6-9                      n= 2771 coverage 50/80/90 (0.475, 0.785, 0.891) rel bias +0.015
+REC 10+                      n= 3378 coverage 50/80/90 (0.479, 0.776, 0.888) rel bias +0.015
+RECYDS 0-2                   n=  920 coverage 50/80/90 (0.522, 0.807, 0.912) rel bias +0.041
+RECYDS 3-5                   n= 2176 coverage 50/80/90 (0.499, 0.788, 0.896) rel bias +0.028
+RECYDS 6-9                   n= 2771 coverage 50/80/90 (0.471, 0.783, 0.888) rel bias +0.011
+RECYDS 10+                   n= 3378 coverage 50/80/90 (0.478, 0.786, 0.895) rel bias +0.006
+RRY 0-2                      n= 1144 coverage 50/80/90 (0.493, 0.788, 0.893) rel bias +0.032
+RRY 3-5                      n= 2525 coverage 50/80/90 (0.487, 0.785, 0.887) rel bias -0.000
+RRY 6-9                      n= 3131 coverage 50/80/90 (0.468, 0.784, 0.89) rel bias -0.001
+RRY 10+                      n= 3719 coverage 50/80/90 (0.489, 0.788, 0.891) rel bias -0.006
+RYDS 0-2                     n=  599 coverage 50/80/90 (0.459, 0.783, 0.896) rel bias +0.064
+RYDS 3-5                     n= 1251 coverage 50/80/90 (0.501, 0.805, 0.9) rel bias -0.007
+RYDS 6-9                     n= 1393 coverage 50/80/90 (0.515, 0.8, 0.907) rel bias +0.004
+RYDS 10+                     n= 1498 coverage 50/80/90 (0.513, 0.814, 0.907) rel bias +0.008
+
+== by spread_abs
+ATT <=3                      n=  550 coverage 50/80/90 (0.458, 0.78, 0.889) rel bias +0.021
+ATT 3-7                      n=  551 coverage 50/80/90 (0.521, 0.811, 0.897) rel bias +0.003
+ATT 7-10                     n=  178 coverage 50/80/90 (0.433, 0.798, 0.927) rel bias +0.029
+ATT 10+                      n=  130 coverage 50/80/90 (0.531, 0.823, 0.938) rel bias +0.047
+CMP <=3                      n=  550 coverage 50/80/90 (0.487, 0.785, 0.902) rel bias +0.026
+CMP 3-7                      n=  551 coverage 50/80/90 (0.523, 0.813, 0.907) rel bias -0.006
+CMP 7-10                     n=  178 coverage 50/80/90 (0.5, 0.787, 0.921) rel bias +0.014
+CMP 10+                      n=  130 coverage 50/80/90 (0.554, 0.9, 0.946) rel bias +0.029
+PTD <=3                      n=  550 coverage 50/80/90 (0.482, 0.785, 0.885) rel bias +0.003
+PTD 3-7                      n=  551 coverage 50/80/90 (0.492, 0.788, 0.875) rel bias -0.046
+PTD 7-10                     n=  178 coverage 50/80/90 (0.433, 0.758, 0.904) rel bias -0.150
+PTD 10+                      n=  130 coverage 50/80/90 (0.408, 0.762, 0.885) rel bias -0.165
+PYDS <=3                     n=  550 coverage 50/80/90 (0.464, 0.771, 0.878) rel bias +0.027
+PYDS 3-7                     n=  551 coverage 50/80/90 (0.479, 0.802, 0.889) rel bias -0.024
+PYDS 7-10                    n=  178 coverage 50/80/90 (0.511, 0.792, 0.899) rel bias +0.008
+PYDS 10+                     n=  130 coverage 50/80/90 (0.477, 0.8, 0.877) rel bias +0.036
+RATT <=3                     n= 1309 coverage 50/80/90 (0.494, 0.787, 0.903) rel bias -0.041
+RATT 3-7                     n= 1291 coverage 50/80/90 (0.518, 0.809, 0.92) rel bias -0.028
+RATT 7-10                    n=  421 coverage 50/80/90 (0.506, 0.781, 0.888) rel bias -0.030
+RATT 10+                     n=  311 coverage 50/80/90 (0.521, 0.81, 0.891) rel bias -0.024
+REC <=3                      n= 3597 coverage 50/80/90 (0.472, 0.78, 0.886) rel bias +0.029
+REC 3-7                      n= 3612 coverage 50/80/90 (0.472, 0.775, 0.885) rel bias -0.010
+REC 7-10                     n= 1163 coverage 50/80/90 (0.491, 0.795, 0.891) rel bias +0.015
+REC 10+                      n=  873 coverage 50/80/90 (0.498, 0.787, 0.893) rel bias +0.050
+RECYDS <=3                   n= 3597 coverage 50/80/90 (0.486, 0.783, 0.895) rel bias +0.039
+RECYDS 3-7                   n= 3612 coverage 50/80/90 (0.477, 0.785, 0.888) rel bias -0.021
+RECYDS 7-10                  n= 1163 coverage 50/80/90 (0.494, 0.805, 0.911) rel bias +0.025
+RECYDS 10+                   n=  873 coverage 50/80/90 (0.506, 0.8, 0.899) rel bias +0.073
+RRY <=3                      n= 4097 coverage 50/80/90 (0.486, 0.777, 0.889) rel bias +0.014
+RRY 3-7                      n= 4109 coverage 50/80/90 (0.478, 0.787, 0.888) rel bias -0.023
+RRY 7-10                     n= 1326 coverage 50/80/90 (0.486, 0.798, 0.895) rel bias +0.009
+RRY 10+                      n=  987 coverage 50/80/90 (0.482, 0.8, 0.897) rel bias +0.035
+RYDS <=3                     n= 1859 coverage 50/80/90 (0.491, 0.801, 0.906) rel bias +0.005
+RYDS 3-7                     n= 1842 coverage 50/80/90 (0.509, 0.794, 0.901) rel bias +0.010
+RYDS 7-10                    n=  599 coverage 50/80/90 (0.523, 0.82, 0.907) rel bias +0.032
+RYDS 10+                     n=  441 coverage 50/80/90 (0.51, 0.834, 0.9) rel bias -0.012
+
+== by back
+ATT regular                  n= 1334 coverage 50/80/90 (0.491, 0.799, 0.902) rel bias +0.014
+CMP regular                  n= 1334 coverage 50/80/90 (0.507, 0.812, 0.915) rel bias +0.007
+PTD regular                  n= 1334 coverage 50/80/90 (0.479, 0.786, 0.884) rel bias -0.059
+PYDS regular                 n= 1334 coverage 50/80/90 (0.481, 0.793, 0.889) rel bias +0.001
+RATT first game back         n=  264 coverage 50/80/90 (0.455, 0.746, 0.883) rel bias -0.069
+RATT regular                 n= 3068 coverage 50/80/90 (0.512, 0.801, 0.909) rel bias -0.031
+REC first game back          n=  485 coverage 50/80/90 (0.427, 0.775, 0.911) rel bias +0.030
+REC regular                  n= 8760 coverage 50/80/90 (0.48, 0.781, 0.885) rel bias +0.013
+RECYDS first game back       n=  485 coverage 50/80/90 (0.468, 0.771, 0.885) rel bias +0.038
+RECYDS regular               n= 8760 coverage 50/80/90 (0.486, 0.789, 0.895) rel bias +0.015
+RRY first game back          n=  657 coverage 50/80/90 (0.444, 0.75, 0.88) rel bias -0.007
+RRY regular                  n= 9862 coverage 50/80/90 (0.485, 0.788, 0.891) rel bias +0.001
+RYDS first game back         n=  339 coverage 50/80/90 (0.475, 0.782, 0.891) rel bias -0.006
+RYDS regular                 n= 4402 coverage 50/80/90 (0.506, 0.806, 0.905) rel bias +0.009
+
+== by shifted
+ATT False                    n= 1409 coverage 50/80/90 (0.486, 0.798, 0.901) rel bias +0.017
+CMP False                    n= 1409 coverage 50/80/90 (0.509, 0.807, 0.911) rel bias +0.012
+PTD False                    n= 1409 coverage 50/80/90 (0.473, 0.781, 0.884) rel bias -0.054
+PYDS False                   n= 1409 coverage 50/80/90 (0.477, 0.789, 0.885) rel bias +0.005
+RATT False                   n= 2619 coverage 50/80/90 (0.514, 0.806, 0.913) rel bias -0.032
+RATT True                    n=  713 coverage 50/80/90 (0.482, 0.766, 0.884) rel bias -0.034
+REC False                    n= 7302 coverage 50/80/90 (0.482, 0.785, 0.889) rel bias +0.014
+REC True                     n= 1943 coverage 50/80/90 (0.459, 0.764, 0.878) rel bias +0.011
+RECYDS False                 n= 7302 coverage 50/80/90 (0.489, 0.79, 0.898) rel bias +0.016
+RECYDS True                  n= 1943 coverage 50/80/90 (0.472, 0.778, 0.883) rel bias +0.017
+RRY False                    n= 8260 coverage 50/80/90 (0.487, 0.79, 0.893) rel bias +0.002
+RRY True                     n= 2259 coverage 50/80/90 (0.466, 0.772, 0.88) rel bias -0.005
+RYDS False                   n= 4028 coverage 50/80/90 (0.509, 0.808, 0.906) rel bias +0.014
+RYDS True                    n=  713 coverage 50/80/90 (0.475, 0.781, 0.891) rel bias -0.017
+
+== by season
+ATT 2023                     n=  467 coverage 50/80/90 (0.488, 0.809, 0.914) rel bias +0.024
+ATT 2024                     n=  473 coverage 50/80/90 (0.486, 0.791, 0.886) rel bias +0.003
+ATT 2025                     n=  469 coverage 50/80/90 (0.484, 0.795, 0.904) rel bias +0.025
+CMP 2023                     n=  467 coverage 50/80/90 (0.499, 0.805, 0.908) rel bias +0.022
+CMP 2024                     n=  473 coverage 50/80/90 (0.51, 0.793, 0.903) rel bias -0.013
+CMP 2025                     n=  469 coverage 50/80/90 (0.518, 0.823, 0.921) rel bias +0.028
+PTD 2023                     n=  467 coverage 50/80/90 (0.505, 0.792, 0.882) rel bias -0.023
+PTD 2024                     n=  473 coverage 50/80/90 (0.465, 0.774, 0.877) rel bias -0.101
+PTD 2025                     n=  469 coverage 50/80/90 (0.448, 0.776, 0.891) rel bias -0.036
+PYDS 2023                    n=  467 coverage 50/80/90 (0.467, 0.784, 0.872) rel bias +0.010
+PYDS 2024                    n=  473 coverage 50/80/90 (0.478, 0.778, 0.877) rel bias -0.013
+PYDS 2025                    n=  469 coverage 50/80/90 (0.486, 0.804, 0.906) rel bias +0.018
+RATT 2023                    n= 1133 coverage 50/80/90 (0.51, 0.805, 0.898) rel bias -0.036
+RATT 2024                    n= 1127 coverage 50/80/90 (0.496, 0.778, 0.907) rel bias -0.018
+RATT 2025                    n= 1072 coverage 50/80/90 (0.517, 0.809, 0.915) rel bias -0.044
+REC 2023                     n= 3115 coverage 50/80/90 (0.478, 0.787, 0.891) rel bias +0.022
+REC 2024                     n= 3064 coverage 50/80/90 (0.472, 0.771, 0.873) rel bias -0.031
+REC 2025                     n= 3066 coverage 50/80/90 (0.481, 0.784, 0.896) rel bias +0.051
+RECYDS 2023                  n= 3115 coverage 50/80/90 (0.486, 0.781, 0.889) rel bias +0.022
+RECYDS 2024                  n= 3064 coverage 50/80/90 (0.484, 0.79, 0.9) rel bias -0.023
+RECYDS 2025                  n= 3066 coverage 50/80/90 (0.486, 0.792, 0.895) rel bias +0.051
+RRY 2023                     n= 3494 coverage 50/80/90 (0.483, 0.785, 0.892) rel bias +0.011
+RRY 2024                     n= 3540 coverage 50/80/90 (0.472, 0.781, 0.889) rel bias -0.029
+RRY 2025                     n= 3485 coverage 50/80/90 (0.493, 0.791, 0.889) rel bias +0.020
+RYDS 2023                    n= 1600 coverage 50/80/90 (0.509, 0.814, 0.916) rel bias +0.045
+RYDS 2024                    n= 1600 coverage 50/80/90 (0.479, 0.787, 0.892) rel bias -0.013
+RYDS 2025                    n= 1541 coverage 50/80/90 (0.524, 0.81, 0.903) rel bias -0.004
+
+== anytime TD: stated vs actual by band and position
+               n  stated  actual
+band                            
+(0.0, 0.1]  1780   0.077   0.078
+(0.1, 0.2]  3710   0.148   0.144
+(0.2, 0.3]  2544   0.247   0.284
+(0.3, 0.4]  1540   0.343   0.356
+(0.4, 0.5]   658   0.443   0.471
+(0.5, 1.0]   287   0.558   0.610
+        n  stated  actual
+pos                      
+FB     36   0.071   0.056
+RB   3308   0.272   0.283
+TE   2074   0.183   0.191
+WR   5101   0.198   0.214

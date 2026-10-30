@@ -1,0 +1,8 @@
+rec TD | team rec TDs, weight = target share          : log loss 0.3849  pred 0.167 act 0.168
+rec TD | team rec TDs, weight = red-zone target share : log loss 0.4592  pred 0.163 act 0.168
+rec TD | team rec TDs, weight = inside-10 share       : log loss 0.6103  pred 0.158 act 0.168
+rec TD | team rec TDs, weight = past rec-TD share     : log loss 0.6391  pred 0.157 act 0.168
+best receiving blend: 0.00 red-zone + 0.15 inside-10 + rest target share: log loss 0.3846 (pred 0.166)
+actual/predicted rec-TD rate by position: {'RB': 0.696, 'TE': 1.157, 'WR': 1.047}
+best rushing blend: 0.25 red-zone + 0.00 goal-line + rest carry share: log loss 0.3396 (pred 0.202 act 0.202)
+actual/predicted rush-TD rate by position: {'C': 0.0, 'CB': 0.0, 'DB': 0.0, 'DE': 0.0, 'DT': 0.0, 'FB': 1.711, 'FS': 0.0, 'G': 0.0, 'K': 0.0, 'LB': 0.0, 'OLB': 0.0, 'P': 0.0, 'QB': 1.206, 'RB': 0.951, 'S': 0.0, 'SAF': 0.0, 'TE': 1.076, 'WR': 1.049}

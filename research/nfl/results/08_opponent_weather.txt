@@ -1,0 +1,24 @@
+pass_yds: market-only resid SD 69.94; + opponent allowed/game: coef 0.095, resid SD 69.87 (0.19% variance explained)
+rush_yds: market-only resid SD 50.77; + opponent allowed/game: coef 0.254, resid SD 50.48 (1.13% variance explained)
+
+by wind (mph), outdoor games: residual passing yards / rushing yards / points vs the closing lines
+             n  pass_yds  rush_yds   pts
+wb                                      
+(-1, 5]    882      8.77     -1.34  0.81
+(5, 10]   1181     -3.10      1.52  0.01
+(10, 15]   575     -5.96     -1.66 -0.75
+(15, 20]   184    -21.52      3.03 -0.96
+(20, 60]    54    -16.98     15.87  0.10
+by temperature (F):
+             n  pass_yds  rush_yds   pts
+tb                                      
+(-30, 32]  202    -15.52      5.42 -0.71
+(32, 45]   638     -8.23      6.84 -0.01
+(45, 60]   936     -0.66     -0.87 -0.10
+(60, 75]   719      4.20     -2.31  0.48
+(75, 120]  383      4.46     -5.14  0.00
+dome/closed vs outdoor passing-yard residual: 3.06 vs -1.26
+home vs away residual passing yards -0.03 vs 0.03; rushing -0.47 vs 0.47
+defense-vs-position WR: correlation of season-to-date share allowed with next-game share allowed = 0.071
+defense-vs-position TE: correlation of season-to-date share allowed with next-game share allowed = 0.045
+defense-vs-position RB: correlation of season-to-date share allowed with next-game share allowed = 0.061

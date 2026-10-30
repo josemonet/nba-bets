@@ -1,0 +1,5 @@
+targets (WR/TE/RB)   beta-binomial rho 0.0139 kappa 70.9  (n=24990)
+WR targets           beta-binomial rho 0.0154 kappa 64.0  (n=14705)
+TE targets           beta-binomial rho 0.0105 kappa 94.5  (n=5352)
+RB targets           beta-binomial rho 0.0124 kappa 79.9  (n=4933)
+RB carries           beta-binomial rho 0.1298 kappa 6.7  (n=11185)

@@ -1,0 +1,20 @@
+QB completion %            : season reliability 0.579, implied prior weight k = 368 pass_att (n=309 QB-seasons)
+QB yards per attempt       : season reliability 0.604, implied prior weight k = 332 pass_att (n=309 QB-seasons)
+QB TD per attempt          : season reliability 0.544, implied prior weight k = 424 pass_att (n=309 QB-seasons)
+QB INT per attempt         : season reliability 0.169, implied prior weight k = 2490 pass_att (n=309 QB-seasons)
+QB sacks per dropback      : season reliability 0.531, implied prior weight k = 489 dropbacks (n=333 QB-seasons)
+QB scrambles per dropback  : season reliability 0.874, implied prior weight k = 80 dropbacks (n=333 QB-seasons)
+QB rush attempts per game  : season reliability 0.929, implied prior weight k = 39 pass_att (n=309 QB-seasons)
+QB per game: rush att 3.49 (scrambles 1.59, kneels 0.63), rush yds 15.7
+CB (80%+ snaps): tackles/game 4.25, variance/mean around his own average 1.17
+LB (80%+ snaps): tackles/game 7.33, variance/mean around his own average 1.15
+S (80%+ snaps): tackles/game 5.59, variance/mean around his own average 1.18
+LB tackles per opponent play: 0.1160; corr(tackles residual, opponent plays) 0.300
+           fga   fgm   xpm  kick_pts    sd     n
+ib                                              
+(0, 17]   1.79  1.52  1.45      6.00  3.40   433
+(17, 20]  1.90  1.61  1.70      6.52  3.59  1010
+(20, 23]  2.03  1.68  2.07      7.12  3.67  1529
+(23, 26]  2.05  1.74  2.43      7.64  3.58  1453
+(26, 29]  2.03  1.74  2.89      8.10  3.48   747
+(29, 50]  1.76  1.54  3.28      7.92  3.31   250

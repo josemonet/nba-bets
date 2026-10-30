@@ -1,0 +1,20 @@
+drives per team-game: mean 11.09 sd 1.68; corr with opponent drives 0.851
+          implied  drives  td_rate  fg_rate  fga_rate     pts  pts_sd
+ib                                                                   
+(0, 17]    15.639  11.212    0.136    0.131     0.154  15.978   8.670
+(17, 20]   18.821  11.238    0.170    0.140     0.165  18.858   8.858
+(20, 23]   21.658  11.157    0.204    0.149     0.180  21.904   9.247
+(23, 26]   24.573  11.002    0.240    0.157     0.184  24.562   9.342
+(26, 29]   27.404  10.943    0.285    0.158     0.185  28.174   9.513
+(29, 50]   30.542  10.819    0.327    0.144     0.164  30.544   9.365
+TD rate per drive = -0.0756 + 0.01316 x implied
+FGA rate per drive = 0.1420 + 0.00166 x implied
+FG make rate 0.845; XP per TD 0.906; 2-pt try share 0.000
+team targets per official pass attempt 0.9639
+WR normalized catch yards: mean 1.000, median 0.794, P(>=2x) 0.099, P(>=3x) 0.033, n 58034
+TE normalized catch yards: mean 1.000, median 0.827, P(>=2x) 0.096, P(>=3x) 0.022, n 21033
+RB normalized catch yards: mean 1.000, median 0.828, P(>=2x) 0.115, P(>=3x) 0.042, n 19474
+RB carry yards: mean 4.27 median 3.0 sd 6.18 n 119694
+QB_design carry yards: mean 3.59 median 2.0 sd 5.90 n 7555
+QB_scramble carry yards: mean 7.42 median 6.0 sd 5.95 n 9147
+WR carry yards: mean 5.81 median 4.0 sd 8.32 n 4167

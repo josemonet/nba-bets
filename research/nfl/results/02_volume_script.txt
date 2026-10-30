@@ -1,0 +1,17 @@
+PLAYS pregame model: const 31.67 total 0.117 exp_margin 0.158 own pace 0.390 opp pace 0.024 | resid SD 8.27
+PLAYS given realized game: +margin -0.018 +own pts 0.182 | resid SD 8.13
+PASS RATE: const 0.188 + 0.773 x neutral PR + 0.0017 x exp_margin + -0.0049 x realized margin | resid SD 0.085
+            pass_rate   plays     att    rush     n
+mb                                                 
+(-60, -17]      0.677  59.231  35.114  20.808   692
+(-17, -10]      0.687  61.983  37.705  21.077   542
+(-10, -4]       0.659  63.292  37.028  23.540   845
+(-4, 3]         0.610  64.052  34.882  26.821  1334
+(3, 10]         0.557  63.768  31.919  29.919   976
+(10, 17]        0.527  63.780  30.415  31.686   509
+(17, 60]        0.507  64.017  29.670  32.936   594
+sack rate per dropback 0.0622; INT per attempt 0.0229
+kneels by realized margin: {Interval(-60, -17, closed='right'): 0.2, Interval(-17, -10, closed='right'): 0.17, Interval(-10, -4, closed='right'): 0.18, Interval(-4, 3, closed='right'): 0.62, Interval(3, 10, closed='right'): 1.45, Interval(10, 17, closed='right'): 1.43, Interval(17, 60, closed='right'): 1.47}
+scrambles per dropback 0.0469
+pass-rate residual autocorrelation within team-season (is it a stable team trait beyond the prior?):
+  corr(res, previous game res) 0.115

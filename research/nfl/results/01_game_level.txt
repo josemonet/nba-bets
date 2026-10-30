@@ -1,0 +1,31 @@
+games 2746 | margin resid SD 12.69 | total resid SD 13.16 | corr 0.018
+  |spread| 0-3: n 635 margin resid SD 12.62
+  |spread| 3-7: n 1334 margin resid SD 12.66
+  |spread| 7-10.5: n 507 margin resid SD 12.70
+  |spread| 10.5-30: n 270 margin resid SD 13.01
+  total 30-41: n 412 total resid SD 13.10 mean resid +1.07
+  total 41-45: n 928 total resid SD 12.66 mean resid +0.10
+  total 45-49: n 859 total resid SD 13.60 mean resid +0.52
+  total 49-70: n 546 total resid SD 13.37 mean resid +0.29
+by season margin SD / total SD: {2016: (np.float64(11.8), np.float64(12.5)), 2017: (np.float64(13.1), np.float64(14.2)), 2018: (np.float64(13.2), np.float64(13.5)), 2019: (np.float64(13.0), np.float64(13.4)), 2020: (np.float64(12.8), np.float64(12.8)), 2021: (np.float64(13.7), np.float64(13.3)), 2022: (np.float64(11.4), np.float64(13.2)), 2023: (np.float64(13.1), np.float64(13.1)), 2024: (np.float64(12.6), np.float64(12.5)), 2025: (np.float64(12.3), np.float64(13.2)), 2026: (np.float64(11.9), np.float64(13.0))}
+final |margin| frequencies (%): {0: 0.4, 1: 4.6, 2: 4.8, 3: 14.6, 4: 4.7, 5: 4.4, 6: 6.9, 7: 8.6, 8: 4.4, 9: 1.7, 10: 4.8, 11: 2.0, 12: 2.0, 13: 1.9, 14: 5.0, 15: 1.7, 16: 2.3, 17: 3.6, 18: 2.2, 19: 1.1, 20: 2.1, 21: 2.2, 22: 1.1, 23: 1.4, 24: 2.0}
+OT share 0.056; ties 0.0040
+          mean   std  size
+ib                        
+(0, 17]   0.34  8.54   449
+(17, 20]  0.04  8.82  1035
+(20, 23]  0.25  9.18  1545
+(23, 26] -0.01  9.27  1466
+(26, 29]  0.77  9.52   749
+(29, 50]  0.00  9.29   248
+corr of the two teams' points residuals 0.036
+team TDs per point 0.1006; mean TDs 2.41 sd 1.40; FGM 1.65; pass-TD share 0.628
+            td   fgm  pass_td  rush_td
+pb                                    
+(0, 17]   1.53  1.46     0.92     0.61
+(17, 20]  1.91  1.57     1.20     0.71
+(20, 23]  2.28  1.66     1.43     0.86
+(23, 26]  2.64  1.72     1.66     0.98
+(26, 29]  3.11  1.73     1.97     1.15
+(29, 50]  3.54  1.56     2.28     1.26
+pass-TD share by realized margin: {Interval(-60, -14, closed='right'): 0.679, Interval(-14, -7, closed='right'): 0.686, Interval(-7, 0, closed='right'): 0.646, Interval(0, 7, closed='right'): 0.632, Interval(7, 14, closed='right'): 0.584, Interval(14, 60, closed='right'): 0.591}
